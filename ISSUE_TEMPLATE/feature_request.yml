@@ -1,0 +1,21 @@
+name: Bug Report
+description: Request a new feature or enhancement here.
+title: "[BUG] "
+labels: ["enhancement"]
+assignees: ["hyper-neutrino"]
+body:
+    - type: markdown
+      attributes:
+          value: Thank you for your suggestion! Please make sure this feature/enhancement has not been submitted in another issue previously.
+    - type: textarea
+      id: description
+      attributes:
+          label: Description
+          description: Describe the feature or enhancement that you would like added.
+      validations:
+          required: true
+    - type: textarea
+      id: additional-information
+      attributes:
+          label: Additional Information
+          description: Provide any additional information such as screenshots or more detailed descriptions.
